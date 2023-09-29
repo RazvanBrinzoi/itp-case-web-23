@@ -44,8 +44,6 @@ To run this project, you will need the following npm packages:
 
 - **axios:** [axios](https://www.npmjs.com/package/axios) - For making HTTP requests.
 - **framer-motion:** [framer-motion](https://www.npmjs.com/package/framer-motion) - For animations.
-- **react:** [react](https://www.npmjs.com/package/react) - React library.
-- **react-dom:** [react-dom](https://www.npmjs.com/package/react-dom) - React DOM rendering.
 - **react-router-dom:** [react-router-dom](https://www.npmjs.com/package/react-router-dom) - For routing in React applications.
 - **styled-components:** [styled-components](https://www.npmjs.com/package/styled-components) - For styling components with CSS-in-JS.
 - **swr:** [swr](https://www.npmjs.com/package/swr) - For data fetching and caching.
