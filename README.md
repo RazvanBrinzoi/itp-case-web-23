@@ -8,7 +8,7 @@
   - [Continuous Improvement](#continuous-improvement)
     - [1. Error Handling Enhancement](#1-error-handling-enhancement)
     - [2. Reliability Testing](#2-reliability-testing)
-  - [DEPLYMENT LINK !](#try-it-out)
+  - [DEPLYMENT LINK !](#deployment-link-!)
 
 # Smart Park Web App
 
