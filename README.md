@@ -1,3 +1,7 @@
+## Deployment Link
+
+Here I have the project deployed: [**Try Smart Parking Ghent**](https://smart-parking-gent.netlify.app)
+
 ## Table of Contents
 
 - [Smart Park Web App](#smart-park-web-app)
@@ -87,7 +91,7 @@ I'm excited to continue expanding my knowledge and applying what I've learned in
 
 I invite you to experience the real-time parking information application firsthand. You can access the live deployment of the app by clicking on the following link:
 
-[**Try Smart Parking Gent**](https://smart-parking-gent.netlify.app)
+[**Try Smart Parking Ghent**](https://smart-parking-gent.netlify.app)
 
 Explore the app's features, view real-time parking data, and get a feel for how it can simplify your parking experience in Ghent, Belgium.
 
