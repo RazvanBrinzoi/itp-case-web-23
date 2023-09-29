@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//Components Import
+import Nav from './components/Nav'
+//Pages import
+import Parking from './pages/Parking'
+import ParkingDetails from './pages/ParkingDetails'
+import Bikes from './pages/Bikes'
+// Global Style
+import GlobalStyle from './components/GlobalStyle';
+// Router
+import { Routes, Route, useLocation } from 'react-router-dom';
+// Animations support 
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
+  const location = useLocation();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStyle />
+      <Nav/>
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route path='/' Component={Parking}></Route>
+          <Route path='/parking/:id' Component={ParkingDetails}></Route>
+          <Route path='/bike' Component={Bikes}></Route>
+        </Routes>
+      </AnimatePresence>
     </div>
   );
 }
