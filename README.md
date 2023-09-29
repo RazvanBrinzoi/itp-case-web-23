@@ -8,7 +8,7 @@
   - [Continuous Improvement](#continuous-improvement)
     - [1. Error Handling Enhancement](#1-error-handling-enhancement)
     - [2. Reliability Testing](#2-reliability-testing)
-  - [DEPLYMENT LINK !](#deployment-link)
+  - [Try It Out!](#try-it-out)
 
 # Smart Park Web App
 
@@ -83,7 +83,7 @@ During the development of this project, I had the opportunity to enhance my skil
 
 I'm excited to continue expanding my knowledge and applying what I've learned in future projects !
 
-## DEPLOYMENT LINK
+## Try It Out!
 
 I invite you to experience the real-time parking information application firsthand. You can access the live deployment of the app by clicking on the following link:
 
